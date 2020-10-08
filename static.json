@@ -4,8 +4,8 @@
       "/**": "index.html"
     },
     "proxies": {
-      "/api/": {
-        "origin": "https://appdearborn.herokuapp."
+      "/api": {
+        "origin": "https://appdearborn.herokuapp.com"
       }
     }
   }
