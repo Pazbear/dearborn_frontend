@@ -5,7 +5,7 @@
     },
     "proxies": {
       "/api/": {
-        "origin": "https://appdearborn.herokuapp.com/api"
+        "origin": "https://appdearborn.herokuapp.com"
       }
     }
   }
