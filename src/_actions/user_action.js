@@ -40,7 +40,7 @@ export function auth(){
             Authorization: `Token ${getCookieValue('w_auth')}`
         }
     }
-    const request = axios.get(`https://appdearborn.herokuapp.com/api/user/auth`, config)
+    const request = axios.get(`http://appdearborn.herokuapp.com/api/user/auth`, config)
         .then(response => response.data)
             
 
